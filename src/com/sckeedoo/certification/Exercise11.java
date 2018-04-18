@@ -1,4 +1,5 @@
-package com.sckeedoo.certification;
+
+package com.sckeedo.certification;
 
 public class Exercise11 {
 
@@ -11,5 +12,10 @@ public class Exercise11 {
        *
        * Output: "John,Steve,Bob,Anna,Diana,George,Dodon,Plahotniuc"
        * */
+       StringBuilder s1 = new StringBuilder();
+       for (int i=0; i<names[i].length();i++)
+       {s1.append(names[i]);}  
+      System.out.println(s1);
     }
 }
+    
